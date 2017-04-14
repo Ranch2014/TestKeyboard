@@ -93,7 +93,7 @@ let paste = UIPasteboard.general.string
 查阅资料的过程中，发现了禁用/解除禁用复制、粘贴等的功能，示例代码如下：
 
 ```swift
-override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+    override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         if action == #selector(copy(_:)) {
             return true
         }
@@ -128,4 +128,5 @@ PS: 此代码仅供参考，实际应用中应根据不同需求改变。
 1. http://www.cocoachina.com/ios/20140922/9706.html
 2. http://www.lai18.com/content/330678.html
 3. http://superdanny.link/2015/09/16/Custom-UITextField-and-UITextView-function/
-4. http://www.cnblogs.com/jaxer/p/6700707.html
+4. http://stackoverflow.com/questions/25957366/ios8-custom-keyboard-copy-paste-to-uipasteboard/25978977
+5. http://www.cnblogs.com/jaxer/p/6700707.html
