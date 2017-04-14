@@ -1,7 +1,7 @@
 # TestKeyboard
 iOS 简单键盘扩展 Demo。效果图如下：
 
-![p1](/Users/jaxer/MyGitHub/TestKeyboard/pics/p1.gif)
+![p1](https://github.com/Ranch2014/TestKeyboard/blob/master/pics/p1.gif)
 
 
 
@@ -13,7 +13,7 @@ PS: 因需要制作，目前功能极其简陋，有待以后扩展。这里用�
 
 首先新建一个 Project，之后在 File -> New -> Target 选择 "Custom Keyboard Extension"，如图所示：
 
-![p1](/Users/jaxer/MyGitHub/TestKeyboard/pics/p2.png)
+![p2](https://github.com/Ranch2014/TestKeyboard/blob/master/pics/p2.png)
 
 该扩展依托于之前的 Project (类似寄生关系)。
 
@@ -64,11 +64,11 @@ let paste = UIPasteboard.general.string
 
  `Info.plist -> NSExtension -> NSExtensionAttributes -> RequestsOpenAccess -> YES` ，如图所示：
 
-![p3](/Users/jaxer/MyGitHub/TestKeyboard/pics/p3.png)
+![p3](https://github.com/Ranch2014/TestKeyboard/blob/master/pics/p3.png)
 
 ​	此外，还需要在 iPhone 的键盘中设置"允许完全访问"，如图所示：
 
-![p4](/Users/jaxer/MyGitHub/TestKeyboard/pics/p4.png)
+![p4](https://github.com/Ranch2014/TestKeyboard/blob/master/pics/p4.png)
 
 ​	这样就可以访问剪切板的内容了！
 
