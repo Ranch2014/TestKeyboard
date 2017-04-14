@@ -93,7 +93,7 @@ let paste = UIPasteboard.general.string
 查阅资料的过程中，发现了禁用/解除禁用复制、粘贴等的功能，示例代码如下：
 
 ```swift
-	override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         if action == #selector(copy(_:)) {
             return true
         }
